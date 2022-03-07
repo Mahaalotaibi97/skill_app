@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include skill_app *.css
+recursive-include skill_app *.csv
+recursive-include skill_app *.html
+recursive-include skill_app *.ico
+recursive-include skill_app *.js
+recursive-include skill_app *.json
+recursive-include skill_app *.md
+recursive-include skill_app *.png
+recursive-include skill_app *.py
+recursive-include skill_app *.svg
+recursive-include skill_app *.txt
+recursive-exclude skill_app *.pyc
