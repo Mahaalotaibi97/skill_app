@@ -1,11 +1,12 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"SKills\"}}]",
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">SKills</span>\",\"col\":12}}]",
  "creation": "2022-03-09 17:24:23.145255",
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
+ "icon": "chart",
  "idx": 0,
  "label": "SKills",
  "links": [
@@ -30,7 +31,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-03-09 17:28:35.842560",
+ "modified": "2022-03-09 17:40:09.819113",
  "modified_by": "Administrator",
  "module": "Skills module",
  "name": "SKills",
@@ -38,19 +39,8 @@
  "parent_page": "",
  "public": 1,
  "restrict_to_domain": "",
- "roles": [
-  {
-   "role": "All"
-  }
- ],
- "sequence_id": 31.0,
- "shortcuts": [
-  {
-   "doc_view": "",
-   "label": "Skills",
-   "link_to": "EmployeeSkill",
-   "type": "DocType"
-  }
- ],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [],
  "title": "SKills"
 }
