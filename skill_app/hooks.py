@@ -188,3 +188,4 @@ app_license = "MIT"
 # 	"skill_app.auth.validate"
 # ]
 
+fixtures = ["EmployeeSkill"]

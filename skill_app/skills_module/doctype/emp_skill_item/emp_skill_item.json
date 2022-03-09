@@ -1,0 +1,49 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-09 00:25:24.911411",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "skill",
+  "proficiency",
+  "certification_sataus"
+ ],
+ "fields": [
+  {
+   "fieldname": "skill",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "skill",
+   "options": "EmployeeSkill",
+   "reqd": 1
+  },
+  {
+   "fieldname": "proficiency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "proficiency",
+   "options": "level1\nlevel2\nlevel3"
+  },
+  {
+   "fieldname": "certification_sataus",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Certification Sataus",
+   "options": "in progress\ncompleted"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-09 00:36:39.793354",
+ "modified_by": "Administrator",
+ "module": "Skills module",
+ "name": "EMP Skill Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
