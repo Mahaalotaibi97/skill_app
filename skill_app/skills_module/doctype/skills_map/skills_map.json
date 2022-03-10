@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "autoname": "field:employee",
+ "creation": "2022-03-10 09:34:03.616891",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "employee_name",
+  "skills_section",
+  "employee_skills"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "label": "Employee",
+   "options": "Employee",
+   "unique": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Read Only",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "skills_section",
+   "fieldtype": "Section Break",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "employee_skills",
+   "fieldtype": "Table",
+   "label": "Employee Skills",
+   "options": "EMP Skill Item"
+  }
+ ],
+ "links": [],
+ "modified": "2022-03-10 09:34:03.616891",
+ "modified_by": "Administrator",
+ "module": "Skills module",
+ "name": "skills map",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "title_field": "employee_name",
+ "track_changes": 1
+}

@@ -29,9 +29,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skills Map",
+   "link_count": 0,
+   "link_to": "skills map",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-03-09 17:40:09.819113",
+ "modified": "2022-03-10 09:36:01.486593",
  "modified_by": "Administrator",
  "module": "Skills module",
  "name": "SKills",
@@ -41,6 +51,13 @@
  "restrict_to_domain": "",
  "roles": [],
  "sequence_id": 3.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Skills",
+   "link_to": "EmployeeSkill",
+   "type": "DocType"
+  }
+ ],
  "title": "SKills"
 }
